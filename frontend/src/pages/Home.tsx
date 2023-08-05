@@ -1,5 +1,10 @@
+import ProjectCard from "./../components/ProjectCard"
 const Home = () => {
-    return <h1>Home</h1>;
+    return(
+    <div className="projects">
+        <ProjectCard title={"Communipute"} description={"This is communipute"} image={"green"}/>
+    </div>
+    )
 };
   
 export default Home;

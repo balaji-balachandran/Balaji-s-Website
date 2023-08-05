@@ -1,0 +1,20 @@
+.project-card{
+    width: 15vw;
+    aspect-ratio: 3 / 4;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.25s box-shadow;
+}
+
+.project-image{
+    /* border:2px solid blue; */
+    height: 60%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    /* background-color: blue; */
+}
+
+.project-card:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 20px 0px;
+}
