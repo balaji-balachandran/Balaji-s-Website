@@ -1,6 +1,15 @@
+:root{
+  --background: #f9fdf7;
+  --primary: #98e6a1;
+}
+
 body{
   margin: 0px;
+  background-color: var(--background);
+  font-family: 'Segoe UI',Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+
+
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

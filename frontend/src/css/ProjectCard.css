@@ -5,16 +5,39 @@
     border-radius: 30px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     transition: 0.25s box-shadow;
-}
-
-.project-image{
-    /* border:2px solid blue; */
-    height: 60%;
-    border-top-left-radius: inherit;
-    border-top-right-radius: inherit;
-    /* background-color: blue; */
+    background-color: #141414;
 }
 
 .project-card:hover{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 20px 0px;
 }
+
+.project-image{
+    height: 60%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.project-description > *{
+    line-height: 10px;
+    font-family: "Inter";
+}
+
+.tech-icons{
+    height: 32px;
+    margin: 3px;
+    transition: 0.25s transform;
+    /* transition: 0.25s border; */
+    /* border-radius: 100%; */
+    /* border: 1px solid black; */
+}
+
+.tech-icons:hover{
+    transform: translate(0,-10px);
+    /* border: 2px solid black */
+}
+
+.tech-desc{
+    display: none;
+}
+

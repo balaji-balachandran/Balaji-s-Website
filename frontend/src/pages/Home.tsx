@@ -1,9 +1,22 @@
-import ProjectCard from "./../components/ProjectCard"
+import Navbar from "./../components/Navbar"
+import Blob from "../components/Blob"
+// import "./../css/Splash.css"
+
+
 const Home = () => {
+    
+
     return(
-    <div className="projects">
-        <ProjectCard title={"Communipute"} description={"This is communipute"} image={"green"}/>
-    </div>
+        <>
+            <Navbar
+                tabs={["1","2"]}
+                links={["1"]}
+            />
+            <div className="left">
+                <Blob></Blob>
+            </div>
+            <div className="Splash"></div>
+        </>
     )
 };
   
