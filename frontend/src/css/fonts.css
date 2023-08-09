@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Braun Linear';
+    src: url("./../../assets/fonts/braun-linear/BraunLinear-Light.eot");
+    src: local('Braun Linear Light'), local('BraunLinear-Light'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Light.eot") format('embedded-opentype'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Light.woff2") format('woff2'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Light.woff") format('woff'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Light.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Braun Linear';
+    src: url("./../../assets/fonts/braun-linear/BraunLinear-Medium.eot");
+    src: local('Braun Linear Medium'), local('BraunLinear-Medium'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Medium.eot") format('embedded-opentype'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Medium.woff2") format('woff2'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Medium.woff") format('woff'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Braun Linear';
+    src: url("./../../assets/fonts/braun-linear/BraunLinear-Bold.eot");
+    src: local('Braun Linear Bold'), local('BraunLinear-Bold'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Bold.eot") format('embedded-opentype'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Bold.woff2") format('woff2'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Bold.woff") format('woff'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Braun Linear';
+    src: url("./../../assets/fonts/braun-linear/BraunLinear-Regular.eot");
+    src: local('Braun Linear Regular'), local("BraunLinear-Regular"),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Regular.eot") format('embedded-opentype'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Regular.woff2") format('woff2'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Regular.woff") format('woff'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Braun Linear';
+    src: url("./../../assets/fonts/braun-linear/BraunLinear-Thin.eot");
+    src: local('Braun Linear Thin'), local('BraunLinear-Thin'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Thin.eot") format('embedded-opentype'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Thin.woff2") format('woff2'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Thin.woff") format('woff'),
+        url("./../../assets/fonts/braun-linear/BraunLinear-Thin.ttf") format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

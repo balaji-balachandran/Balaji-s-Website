@@ -1,7 +1,7 @@
 import Navbar from "./../components/Navbar"
 import Blob from "../components/Blob"
 // import "./../css/Splash.css"
-
+import "./../css/fonts.css"
 
 const Home = () => {
     

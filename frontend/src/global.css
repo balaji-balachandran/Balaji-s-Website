@@ -3,10 +3,17 @@
   --primary: #98e6a1;
 }
 
+/* @font-face {
+  font-family: BraunLinear;
+  src: url("./../assets/fonts/braun-linear/BraunLinear-Medium.ttf");
+} */
+
 body{
   margin: 0px;
   background-color: var(--background);
-  font-family: 'Segoe UI',Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: 'Segoe UI',Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: Braun Linear;
+  font-weight: 500;
 }
 
 

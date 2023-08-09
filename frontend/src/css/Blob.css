@@ -1,10 +1,16 @@
 .blob {
-  position: relative;
-  width: 300px;
+  width: clamp(20vw, 200px, 100%);
   aspect-ratio: 1 / 1;
-  border-radius: 100%;
-  background-color: aqua;
-  background-image: url("./../../assets/icons/python.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  transition: border-radius 500ms;
+  animation: morph-blob 60000ms ease-in-out 0ms alternate infinite;
+  border: 2px solid black;
+}
+
+
+@keyframes morph-blob {
+  0%    {  border-radius: 54% 46% 55% 45% / 75% 73% 27% 25%; }
+  25%   {  border-radius: 60% 40% 55% 45% / 41% 74% 26% 59%; }
+  50%   {  border-radius: 33% 67% 46% 54% / 61% 48% 52% 39%; }
+  75%   {  border-radius: 58% 42% 38% 62% / 45% 32% 68% 55%; }
+  100%  {  border-radius: 54% 46% 55% 45% / 75% 73% 27% 25%; }
 }
