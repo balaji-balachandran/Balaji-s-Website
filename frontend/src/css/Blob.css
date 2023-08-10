@@ -3,7 +3,6 @@
   aspect-ratio: 1 / 1;
   transition: border-radius 500ms;
   animation: morph-blob 60000ms ease-in-out 0ms alternate infinite;
-  border: 2px solid black;
 }
 
 
