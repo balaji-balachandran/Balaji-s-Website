@@ -1,5 +1,6 @@
 import Navbar from "./../components/Navbar"
 import Blob from "../components/Blob"
+import Wave from "./../../assets/svg/wave-cropped.svg"
 import "./../css/Splash.css"
 import "./../css/fonts.css"
 import "./../css/Projects.css"
@@ -10,10 +11,15 @@ const Home = () => {
 
     return(
         <>
-            <Navbar
+        <Navbar
                 tabs={["1","2"]}
                 links={["1"]}
             />
+            <object data={Wave} type="image/svg+xml">
+                <img src={Wave} alt="" />
+            </object>
+
+            
             <div className="splash">
                 <div className="right">
                     <h1>Hi I'm Balaji</h1>
