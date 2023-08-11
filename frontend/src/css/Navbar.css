@@ -1,5 +1,5 @@
 :root {
-    /* --navbar-color : #e9eef5; */
+    --navbar-color : #EB7D0E;
 }
 
 
@@ -12,7 +12,7 @@
 .navbar {
     background-color: var(--navbar-color);
     overflow: hidden;
-    
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
     
     & .links {
         float: right;

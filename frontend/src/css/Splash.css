@@ -1,8 +1,23 @@
 
 .right h1{
+    --color: white;
+    --color: #e1ecf5;
+    --color: #ebebeb;
+    /* --color: #D1CAC0;  */
     font-size: 150px;
+    color: var(--color);
+
 }
 
 .right br{
     display: none;
 }
+
+object{
+    --nav-height: 30px;
+    width: 100%;
+    z-index: -1;
+    /* position: absolute; */
+    /* top: var(--nav-height); */
+    margin: 0px;
+}     
