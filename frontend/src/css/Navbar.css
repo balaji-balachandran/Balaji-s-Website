@@ -51,38 +51,3 @@
     font-family:sans-serif;
 
 }
-/* a + a{
-    padding: 100px; */
-    /* margin-left: 10px; */
-/* } */
-
-/* .subheading{
-    font-size: 100px;
-    font-weight: 500;
-}
-
-#first-enter{
-    animation: rise-in 500ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s forwards;
-}
-
-#second-enter{
-    animation: rise-in 500ms cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s forwards;
-}
-
-
-.main-name{
-    font-size: 130px;
-    font-weight: 500;
-    position: relative;
-
-    animation: rise-in 2000ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s forwards;
-}
-
-@keyframes rise-in {
-    0%{
-        transform: translate(0, 0px);
-    }
-    100%{
-        transform: translate(0, -10px);
-    }
-} */
