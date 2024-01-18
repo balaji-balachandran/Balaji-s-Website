@@ -1,6 +1,6 @@
 import ProjectCard from "../components/ProjectCard"
 
-const Home = () => {
+const Projects = () => {
     return(
     <div className="projects">
         <ProjectCard title={"Communipute"} description={"This is communipute"} image={"green"}/>
@@ -9,4 +9,4 @@ const Home = () => {
     )
 };
   
-export default Home;
+export default Projects;
