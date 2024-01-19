@@ -15,7 +15,7 @@
 
 body{
   margin: 0px;
-  background-color: var(--background);
+  /* background-color: var(--background); */
   /* font-family: 'Segoe UI',Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-family: Braun Linear;
   font-weight: 500;
