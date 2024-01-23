@@ -1,4 +1,4 @@
-import "./../css/ProjectCard.css"
+    import "./../css/ProjectCard.css"
 // import image from './../../../assets/icons/c++.png'
 interface CardProps {
   title: string;

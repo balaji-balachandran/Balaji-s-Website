@@ -1,41 +1,10 @@
-/* body{
-    background-color: white;
-}
-
-.card-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
-}
-
-.card{
-    width: 325px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-    margin: 20px;
-}
-
-.card img{
-    width: 100%;
-}
-
-.card-content{
-    padding: 16px;
-}
-
-.card-content h3{
-    font-size: 28px;
-    margin-bottom: 8px;
-} */
-
 :root{
     --h1:  rgba(45,45,45,1);
-    --blue: #98b5cc;
+	/* --h2: rgba(45,45,45,1);	 */
+	--h2: rgba(60,60,60,1);
+	--blue: #98b5cc;
     --yellow: #ffcc00;
-    --yellow: #fc9917;
+    /* --yellow: #fc9917; */
     --outline: rgba(#fff, .4);
     --shadow: rgba($yellow, .5);
     
@@ -47,7 +16,20 @@ body {
 	height: 100%;
 }
 
-h1 {
+h2{
+	font-family: 'CoreCircus', sans-serif;
+	font-size: 6vw;
+	text-align: center;
+	line-height: 1;
+	margin: 0;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: var(--h2);
+	letter-spacing: -.8rem;
+}
+h1{
 	font-family: 'CoreCircus', sans-serif;
 	font-size: 10vw;
 	text-align: center;
@@ -69,10 +51,11 @@ h1 {
 		z-index: 5;
 		text-shadow: none;
 		/* left: 27%; */
-		text-align: left;
-		animation: flickerOn 3s infinite;
+		/* text-align: left; */
+		/* animation: flickerOn 3s infinite; */
 	}
 }
+
 @keyframes flickerOn {
     /* ON Value */
     0%,20%{

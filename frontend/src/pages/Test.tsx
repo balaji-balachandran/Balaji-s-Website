@@ -1,5 +1,6 @@
 import "./../css/test.css"
 import logo from "./../../assets/pfp/pfp.jpg"
+import Projects from "./../components/ProjectSection";
 
 const Test = () => {
     return(
@@ -78,7 +79,11 @@ const Test = () => {
     //         </div>
     //     </div>
     // </>
-    <h1 data-heading="Balaji">Balaji</h1>
+    <>
+        <h2>Hi I'm</h2>    
+        <h1 data-heading="Balaji">Balaji</h1>
+        {/* <Projects></Projects> */}
+    </>
     )
 };
   
